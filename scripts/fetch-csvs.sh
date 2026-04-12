@@ -8,6 +8,8 @@ mkdir -p ./data/$TODAY
 cp "$TMPDIR"/*.csv "./data/$TODAY/"
 
 rm data.zip
-
+git add "./data/$TODAY" "./scripts/fetch-csvs.sh"
+git commit -m "hw02 - final version - Ivy Brenton"
+git push origin main
 
 
