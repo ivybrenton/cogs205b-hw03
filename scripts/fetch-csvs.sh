@@ -7,5 +7,7 @@ TODAY=$(date +%F)
 mkdir -p ./data/$TODAY
 cp "$TMPDIR"/*.csv "./data/$TODAY/"
 
+rm data.zip
+
 
 
